@@ -1,0 +1,221 @@
+/* Color Reference List
+#333 = Dark Grey 
+#F1AEA6 = Pink 
+#AFBEB1 = Green
+#F2F2F2 = Grey
+#565656 = Darkish Grey
+#E5E5E5 = Darker Grey
+#97040C = CMU Red
+#59070F = Dark Red
+*/
+
+body{
+    background-color: #E5E5E5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar{
+    background-color: #C41E3A;
+}
+
+body .navbar .navbar-brand{
+    color: white;
+}
+
+.nav-item: hover{
+}
+
+/* Columns */
+.Resource .container{
+    font-size: 12px;
+    color: #333;
+}
+
+.Resource .col8 .col12{
+    padding: 10px;
+    background: white;
+    margin-right: auto;
+}
+
+.col4 .info{
+    padding: 10px;
+    /*background: #F2F2F2;*/
+    /*border-style: solid;*/
+    /*border-color: #AFBEB1;*/
+    margin-left: auto;
+    margin-bottom: 4px;
+}
+
+/* The Left Logo Image */
+.col-md-12 img{
+    width: 100%;
+    float: left;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+/* Columns */
+
+/* Left Bar */
+.Underline{
+    border-style: solid;
+    border-width: 0.5px;
+    color: black;
+}
+
+.icon img{
+    width: 100%;
+    float: left;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.Location{
+    padding: 10px;
+    background: #F2F2F2;
+    /*border-style: solid;
+    border-width: 1px;
+    border-color: grey;*/
+    margin-left: auto;
+    margin-bottom: 4px;
+    border-radius: 0.25rem;
+}
+
+.Services{
+    padding: 10px;
+    background: #F2F2F2;
+    /*border-style: solid;
+    border-width: 1px;
+    border-color: grey;*/
+    margin-left: auto;
+    margin-bottom: 4px;
+    border-radius: 0.25rem;
+}
+
+.LeftTitle{
+    text-align: left;
+    font-weight: bold;
+}
+
+.OpenOrClosed{
+    text-align: left;
+}
+
+.LeftText{
+    text-align: left;
+}
+
+.LocationSmall{
+    font-size: 8px;
+}
+
+.TimeSmall{
+    font-size: 14px;
+}
+/* Left Bar */
+
+/* Right Bar */
+.RightTitle{
+    text-align: left;
+    font-size: 20px;
+}
+
+.QuestionAndAnswer{
+    padding: 10px;
+    background: #F2F2F2;
+    /*border-style: solid;
+    border-width: 1px;
+    border-color: grey;*/
+    margin-left: auto;
+    margin-bottom: 4px;
+    border-radius: 0.25rem;
+    position:relative;
+}
+
+.QuestionAndAnswerBox{
+    padding: 10px;
+    background: white;
+    margin-left: auto;
+    margin-bottom: 4px;
+    border-radius: 0.25rem;
+}
+
+.Question img{
+    width: 10%;
+    float: left;
+    padding: 5px;
+}
+
+.Question{
+    font-size: 12px;
+    display: inline-block;
+}
+
+.Answer img{
+    width: 10%;
+    float: left; 
+    padding: 5px;
+}
+
+.Answer{
+    font-size: 12px;
+    display: inline-block;
+    color: grey;
+}
+
+.ExtraInfo{
+    padding: 10px;
+    background: #F2F2F2;
+    /*border-style: solid;
+    border-width: 1px;
+    border-color: grey;*/
+    margin-left: auto;
+    margin-bottom: 4px;
+    border-radius: 0.25rem;
+}
+/* Right Bar */
+
+/* Source Link */
+col4 col12 button{
+    float: left;
+}
+
+button a{
+    color: white;
+    font-size: 8px;
+}
+
+button a:hover{
+    text-decoration: none;
+    color: white;
+}
+/* Source Link */
+
+/* Map */
+.MapImage{
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+/* Map */
+
+#myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    z-index: -1;
+}
+
+#myUL li a:hover:not(.header) {
+    background-color: #eee;
+    }
